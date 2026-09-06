@@ -59,3 +59,9 @@ USB_DRIVE (Root)
         └── config.plist
 ```
 
+
+
+---
+Pls refer to the UnPlugged guide(just giving you a reminder)
+-
+To create the exfat and FAT32 partitions,i used Minitool Partition Wizard,and created a 1 gb FAT32 with com.apple.recovery.boot folder and EFI and the rest of 32 gb flash drive went to the exfat partition,where there was UnPlugged.command,and Install assistant.pkg from gibMacOS
