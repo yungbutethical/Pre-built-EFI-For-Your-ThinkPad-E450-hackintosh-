@@ -24,3 +24,16 @@
 * This is the **raw EFI folder** that successfully works for my system configuration.
 * **Troubleshooting:** The uploaded files are the **debug version**. If the system fails to boot or encounters an error, it will generate a detailed log file to show exactly what went wrong. You can use this log to adjust the config file to match your specific hardware.
 * 
+---
+
+### Status: What Works & Known Issues
+* 🟢 **Trackpad:** Works perfectly with full gesture support.
+* 🟢 **Wi-Fi & Bluetooth:** Fully functional. 
+* 💡 *Tip:* If you encounter built-in speaker issues, routing your audio through Bluetooth headphones works perfectly as a backup.
+* 🟢 **USB Ports & Peripherals:** External keyboards, mice, and other devices register correctly.
+* 🟢 **Webcam:** Works flawlessly out of the box.
+* 🟢 **Battery Status:** Displays accurate percentage and charging states.
+* 🟢 **Sleep / Wake:** Laptop enters sleep mode cleanly when the lid closes and wakes up normally.
+* 🟢 **Display Brightness:** Screen brightness controls and adjustment hotkeys work properly.
+* 🟡 **Audio:** Fully configured and currently working perfectly on my system, but it can occasionally be unstable or require a reboot on some setups.
+  
