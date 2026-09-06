@@ -36,4 +36,26 @@
 * 🟢 **Sleep / Wake:** Laptop enters sleep mode cleanly when the lid closes and wakes up normally.
 * 🟢 **Display Brightness:** Screen brightness controls and adjustment hotkeys work properly.
 * 🟡 **Audio:** Fully configured and currently working perfectly on my system, but it can occasionally be unstable or require a reboot on some setups.
-  
+  ---
+
+### USB Drive Folder Structure
+When setting up your USB installer, ensure your root directory is arranged exactly like this. 
+*(Note: Create the `com.apple.recovery.boot` folder manually and download the base system files into it).*
+
+```text
+USB_DRIVE (Root)
+├── com.apple.recovery.boot/
+│   ├── BaseSystem.chunklist
+│   └── BaseSystem.dmg
+└── EFI/
+    ├── BOOT/
+    │   └── BOOTx64.efi
+    └── OC/
+        ├── ACPI/
+        ├── Drivers/
+        ├── Kexts/
+        ├── Resources/
+        ├── Tools/
+        └── config.plist
+```
+
